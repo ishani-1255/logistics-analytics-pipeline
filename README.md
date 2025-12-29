@@ -4,7 +4,8 @@ An end-to-end **logistics analytics pipeline** built using **Apache Airflow, dbt
 This project demonstrates how raw logistics data can be transformed into analytics-ready models and visualized through interactive dashboards using a **modern analytics stack**.
 
 ---
-
+**Flow:** Parquet Files (Raw Data) → Apache Airflow → dbt → DuckDB → Apache Superset → Analytics Dashboards
+---
 ## 🧱 Tech Stack
 
 - **Apache Airflow** – Workflow orchestration  
@@ -21,7 +22,12 @@ This project demonstrates how raw logistics data can be transformed into analyti
 ![DAG Architecture](DAG.png)
 *Figure 1: DAG.*
 
-**Flow:** Parquet Files (Raw Data) → Apache Airflow → dbt → DuckDB → Apache Superset → Analytics Dashboards
+## 📸 Dashboard Preview
+
+![Superset Dashboard](Dashboard.png)
+*Figure 2: Interactive Logistics Dashboard view in Apache Superset.*
+
+
 
 ---
 
@@ -55,10 +61,6 @@ Aggregated analytics model:
 
 ---
 
-## 📸 Dashboard Preview
-
-![Superset Dashboard](Dashboard.png)
-*Figure 2: Interactive Logistics Dashboard view in Apache Superset.*
 
 ## 🚀 How to Run
 
