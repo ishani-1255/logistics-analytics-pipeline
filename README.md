@@ -18,7 +18,7 @@ This project demonstrates how raw logistics data can be transformed into analyti
 
 ## 🏗️ Airflow DAG
 
-![DAG Architecture](https://i.ibb.co/zgPh5wL/Screenshot-2025-12-29-at-8-50-32-PM.png)
+![DAG Architecture](DAG.png)
 *Figure 1: DAG.*
 
 **Flow:** Parquet Files (Raw Data) → Apache Airflow → dbt → DuckDB → Apache Superset → Analytics Dashboards
