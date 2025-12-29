@@ -57,7 +57,7 @@ Aggregated analytics model:
 
 ## 📸 Dashboard Preview
 
-![Superset Dashboard](https://i.ibb.co/G3sb0nnn/Screenshot-2025-12-29-at-8-45-06-PM.png)
+![Superset Dashboard](Dashboard.png)
 *Figure 2: Interactive Logistics Dashboard view in Apache Superset.*
 
 ## 🚀 How to Run
