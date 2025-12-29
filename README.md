@@ -1,4 +1,4 @@
-# Logistics Analytics Pipeline 🚚📊
+# Logistics Analytics Pipeline
 
 An end-to-end **logistics analytics pipeline** built using **Apache Airflow, dbt, DuckDB, and Apache Superset**.  
 This project demonstrates how raw logistics data can be transformed into analytics-ready models and visualized through interactive dashboards using a **modern analytics stack**.
