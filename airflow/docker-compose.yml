@@ -1,0 +1,14 @@
+services:
+  airflow:
+    build: .
+    environment:
+      AIRFLOW_HOME: /opt/airflow
+      AIRFLOW__CORE__EXECUTOR: SequentialExecutor
+      AIRFLOW__CORE__LOAD_EXAMPLES: 'false'
+    volumes:
+      - ./dags:/opt/airflow/dags
+      - ../data:/opt/airflow/data
+      - ../dbt:/opt/airflow/dbt
+    ports:
+      - "8080:8080"
+    command: airflow standalone

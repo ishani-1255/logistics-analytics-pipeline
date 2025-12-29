@@ -1,0 +1,1 @@
+{"_invocation_id": "95fb8f8f-d1fc-468e-8d83-31ff5bfec17e", "linked": {"0": {"name": "model.logistics_analytics.carrier_performance", "type": "model"}, "1": {"name": "model.logistics_analytics.stg_shipments", "type": "model", "succ": [0]}}}

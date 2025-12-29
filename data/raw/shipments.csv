@@ -1,0 +1,5 @@
+shipment_id,order_date,delivery_date,expected_delivery_date,carrier,origin,destination,distance_km
+SHP001,2025-01-01,2025-01-04,2025-01-03,BlueDart,Delhi,Mumbai,1400
+SHP002,2025-01-02,2025-01-03,2025-01-03,Delhivery,Bangalore,Chennai,350
+SHP003,2025-01-03,2025-01-07,2025-01-05,BlueDart,Delhi,Kolkata,1500
+SHP004,2025-01-03,2025-01-04,2025-01-04,EcomExpress,Mumbai,Pune,150

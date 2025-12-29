@@ -1,0 +1,9 @@
+name: logistics_analytics
+profile: logistics_analytics
+
+models:
+  logistics_analytics:
+    staging:
+      materialized: view
+    marts:
+      materialized: table
